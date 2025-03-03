@@ -1,1 +1,109 @@
 venv/
+__pycache__/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Django-specific files
+db.sqlite3
+db.sqlite3-journal
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Media and static files
+/static/
+/media/
+
+# Secrets and environment variables
+.env
+*.pem
+*.key
+
+# Migrations (optional: keep if tracking migrations)
+**/migrations/*.py
+**/migrations/*.pyc
+!*/migrations/__init__.py  # Keep __init__.py to allow tracking the package
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# MacOS and Linux system files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Gunicorn and uWSGI files
+gunicorn.pid
+*.pid
+*.sock
+*.log
+*.cover
+.coverage
+*.mo
+*.data
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Node.js dependencies (if using frontend with Django)
+node_modules/
+
+# Terraform and deployment files (if applicable)
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Local security files
+.secret/
+config/settings/local.py
+
+# Docker-related files
+docker-compose.override.yml
+*.db
+
+# Poetry files (if using Poetry for dependency management)
+poetry.lock
+
+# Ignore Sentry release files
+.sentrycli
+
+# Ignore temporary files created by editors
+*.bak
+*.tmp
+*.~*
