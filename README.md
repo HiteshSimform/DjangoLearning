@@ -159,3 +159,4 @@ This serves as a strong foundation for your Django learning journey!
 #### Dt : 05-03-2025
 - Django URL Patterns
 - Django Templates
+- Django Template Language

@@ -1,5 +1,5 @@
 """
-URL configuration for learningpractice project.
+URL configuration for ch11 project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -16,22 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from app1 import views
-from app1.views import learn_django
-from course.views import *
 
 urlpatterns = [
-    # path('', include('app1.urls')),
     path('admin/', admin.site.urls),
-    path('', views.home,name='home'),
-    path('myfun/', views.myfunction , name='myfunction'),
-    # path('dj/',views.learn_django,name='learn_django'),
-    path('dj/',views.learn_django,{'status':'OK'}),
-    path('py/',views.learn_python,name='learn_python'),
-    path('math/',views.learn_math,name='learn_math'),
-    path('php/',views.learn_php,name='learn_php'),
-    path('myapp1/',views.myapp1,name='myapp1'),
-
     path('course/',include('course.urls'))
 ]
- 
