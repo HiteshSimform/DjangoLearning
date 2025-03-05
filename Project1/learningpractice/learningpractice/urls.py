@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from app1 import views
 from app1.views import learn_django
+from course.views import *
 
 urlpatterns = [
     # path('', include('app1.urls')),
@@ -30,4 +31,6 @@ urlpatterns = [
     path('math/',views.learn_math,name='learn_math'),
     path('php/',views.learn_php,name='learn_php'),
     path('myapp1/',views.myapp1,name='myapp1'),
+
+    path('course/',include('course.urls'))
 ]
