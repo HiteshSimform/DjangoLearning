@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Course</title>
+</head>
+<body>
+    <h1>Hello Django Template Language</h1>
+    {% comment %} Example 1 - Variable {% endcomment %}
+    <h2>Example 1 - Variable</h2>
+    {% comment %} <h3>Name : {{name}} </h3> {% endcomment %}
+    {% comment %} <h3>Name : {{nm}} </h3>
+    <h3>Duration : {{du}} </h3>
+    <h3>Seats : {{st}} </h3>{% endcomment %}
+
+    {% comment %} 
+    <h2>Filters</h2>
+    <h3>Name : {{name | upper}} </h3>
+    <h3>Desc : {{desc | truncatewords:3}} </h3>
+    <h3>Desc : {{desc | upper | truncatewords:3}} </h3>
+    <h3>Name : {{name | lower}} </h3>
+    <h3>Name : {{name | capfirst}} </h3>
+    <h3>Name : {{name | default:'nothing'}} </h3>
+    <h3>Name : {{name | length}} </h3>
+    <h3>Name : {{name | slice:"2"}} </h3>
+    <h3>Name : {{name | truncatechars:3}} </h3>
+    {% endcomment %}
+
+    <h2>Date Time</h2>
+    <h3> {{dt}} </h3>
+    <h3> {{dt | date}} </h3>
+    <h3> {{dt | time}} </h3>
+    <h3> {{dt | date:'D d M Y'}} </h3>
+    <h3> {{dt | time:'H:i'}} </h3>
+    <h3> {{dt | date:'SHORT_DATE_FORMAT'}}</h3>
+    <h3> {{dt | time:'TIME_FORMAT'}} </h3>
+</body>
+</html>
