@@ -1,0 +1,21 @@
+sudo -i -u postgres
+psql
+
+
+login
+cache
+response
+caching
+
+session
+cookie
+empty cache and add new data
+
+post
+save 
+delete
+cache 
+remove
+query
+map cache
+database cache
