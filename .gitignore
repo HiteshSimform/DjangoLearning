@@ -107,3 +107,5 @@ poetry.lock
 *.bak
 *.tmp
 *.~*
+
+t.md
