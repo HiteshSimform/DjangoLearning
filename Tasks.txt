@@ -6,3 +6,58 @@ moderator
 roles define
 values list
 
+Insrtance 
+models
+
+large data files load
+max number of data load
+implement all with decorator
+
+Middleware call, str, 
+
+Test cases
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Start with Model Structure Design
+- Postgres, Sqlite3
+- Role Baseed Authentication - Decorator and also group
+- Email
+- OTP
+- SMTP
+- Validate
+- Forms
+- Crispy
+- CBV
+- FBV
+- Media File Upload
+- Handle Large Files
+- No Duplicate
+- CRUD
+- Multiple Apps
+- CSRF
+- Signals
+- Channels
+- settings.py - session time
+- session inspiration time setting
+- JWT token time expiration
+- auth module user migrate
+- password store and authenticate
+- default authenticate
+- bydefault
+- default login
+- user filter in relation
+- save user decorator
+- login cookies, sessions
+- REST api state less
+- token based authenticationapi call header token
+- token expiration time
+- request response parametre for other decorator
+
+- all auth sign in , login using google , social media account, 
+- 
